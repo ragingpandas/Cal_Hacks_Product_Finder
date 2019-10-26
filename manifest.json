@@ -1,0 +1,13 @@
+  {
+    "name": "Product Finder",
+    "version": "1.0",
+    "description": "Searches for products on a page your viewing, gives recommendation, alerts prices and deals.!",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },    
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
